@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fastly.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  
+  <link rel="icon" href="images\pexels-lynda-sanchez-1777813.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css\bootstrap.css.map">
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="store.css">
+  <title>plant Store</title>
+
+</head>
+
+<body id="body">
+
+  <div class="backUser"></div>
+  <div id="alertsign" class="alert alert-warning alert-dismissible fade show" role="alert">
+    <p>please SignIn first...</p>
+    <button   style="margin-bottom:9px; color: rgb(0, 0, 0);" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <nav id="navbar" class="navbar navbar-expand-lg ">
+    <a class="navbar-brand" href="store.html">
+       <div class="logo-nav">
+      <img style="object-fit: none;" src="images/Group 2.png" alt="">
+      <p style="font-family: Arapey;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;">Plantly.</p>
+    </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""><i class='bx bx-align-right'></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ">
+        <li class="nav-item ">
+          <a class="nav-link Home activee " href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link About " href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link Shop" href="#Shop">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link Collection" href="#Collection">Collection</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link Blogs" href="#Blogs">Blogs</a>
+        </li>
+      </ul>
+      <div class="icon navbar-text">
+        <div class="hello"> <span id="moon"><i class='bx bx-moon'></i></span>
+          <span style="display: flex;
+              flex-direction: column; align-items: center;"><i id="user" class='bx bx-user'></i>
+            <p style="font-size: 13px; font-weight: 400;"id='login'>Sign in</p>
+          </span>
+          <span>|</span>
+
+          <dic class="circle"> <i class='bx bx-shopping-bag ' id="cart-icon"></i></dic>
+        </div>
+
+
+        <!-- <span id="sun"><i class='bx bx-sun'></i></span> -->
+
+        <div class="cardd">
+          <h2 class="card-title">Your cart</h2>
+          <div class="cart-content">
+
+
+
+
+
+
+
+
+
+          </div>
+          <div class="total">
+            <div class="total-title">total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <button type="button" class="bn-buy">Buy Now</button>
+          <i class='bx bxs-x-square' id="close"></i>
+        </div>
+      </div>
+
+    </div>
+
+  </nav>
+  <!-- end nav -->
+  <!-- start sec1 -->
+  <section class="sec1 " id="Home">
+  <div class="userSign">
+    <div class="user-box">
+
+      <div><label for="">UserName:</label>
+        <input type="text" placeholder="user name" id="userName">
+      </div>
+      <div> <label for="">E-mail:</label>
+        <input type="Email" placeholder="E-mail" style="margin-left: 30px;" id="email">
+      </div>
+      <div> <label for="">Passward:</label>
+        <input type="Passward" placeholder="Passward" style="margin-left: 10px;" id="Passward">
+      </div>
+      <p id="massege"></p>
+      <button class="login" id="SignIn"> SignIn</button>
+      <i class='bx bxs-x-circle' id="userClose"></i>
+
+    </div>
+  </div>
+    <section class="div1 container  ">
+      <div class="font">
+        <h1>Perfect plants on sale for your <span>interiors</span>.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis eleifend orci nunc, blandit massa, vitae. Quis
+          in vitae est eu pulvinar sed. Netus lorem sit turpis tristique pharetra sit. Egestas felis feugiat augue
+          auctor quam nisl vel sit sagittis.</p>
+
+        <a href="shop.html"><button class="btn1">shop collection <span>&#10230</span></button></a>
+      </div>
+
+
+      <div class="imges">
+        <img src="images\pexels-jonathan-borba-2922353 3.png" width="60%" style="margin-right:10px; margin-left: 10px ;"
+          alt="">
+        <div class="coll-img">
+          <img src="images\6.png " alt="" style="margin-bottom:20px ; margin-top: 20px;" width="90%">
+          <div class="div-img"></div>
+        </div>
+      </div>
+
+    </section>
+  </section>
+
+  <!-- end sec1 -->
+  <!-- start sec 2-->
+  <div class="sec22">
+    <section class="sec2">
+      <div class="sc2-img container">
+        <img src="images\Natural..png" alt="">
+        <img src="images\Greenary.png" alt="">
+        <img src="images\Nursery.png" alt="">
+        <img src="images\PlantGuide.png" alt="">
+        <img src="images\PlantInfo.png" alt="">
+      </div>
+    </section>
+  </div>
+  <!-- end sec 2 -->
+  <!-- start sec3 -->
+  <section class="sec3 " id="About">
+
+    <div class="div-sec3 container">
+      <div class="img-posi">
+        <img class="img1" src="images\pexels-juan-pablo-serrano-arenas-1084188 1 (1).png" width="300px" alt="">
+        <img class="img-chang" src="images\Group 1.png" alt="">
+      </div>
+      <div class="sec3-font">
+        <h3>Our journey</h3>
+        <p>
+          Quis eleifend orci nunc,
+          Dui nulla augue in id enim non. Venenatis aenean suscipit facilisis amet. Pellentesque nullam mi vitae neque
+          ipsum.
+          blandit massa, vitae. Dui nulla augue in id enim non. Venenatis aenean suscipit
+          facilisis amet. Petae neque ipsum.
+          <span id='read' class="more">auctor.
+            Quis in vitae est eu pulvinar sed. Netus lorem sit
+            turpis tristique pharetra sit. Tortor ornare libero semper cursus. Mollis erat augue egestas laoreet est
+            turpis tristique pharetra sit. Tortor ornare libero semper cursus. Mollis erat augue egestas laoreet est
+            aenean suscipit facilisis amet. Pellentesque nullam mi vitae neque
+            ipsum. </span>
+
+          <br>
+
+        </p>
+        <span id="readeMore">Reade More..</span>
+      </div>
+    </div>
+  </section>
+  <!-- end sec3 -->
+
+  <!-- start sec4 -->
+  <section class="sec4" id="Shop">
+
+    <div class="container sec-4-div">
+      <h3 class="font-h3"> Fresh arrivals <span>/</span> <a class="link-shop" href="#">Shop All</a> </h3>
+      <div class="cart">
+        <div class="cart-item">
+
+          <div class="shop-item">
+
+            <div class="img-shop">
+              <div class="love"><i onclick="state(this)" class='bx bxs-heart hearts'></i></div>
+              <img class="shop-img" src="images\andrew-reshetov-f8tr3-MJzhc-unsplash 1.png" alt="">
+              <button class="shop-btn">
+                Add to cart
+              </button>
+            </div>
+
+            <h5 class="shop-title">Chinese Plant</h5>
+            <span class="shop-price">$ 26.00</span>
+          </div>
+        </div>
+        <div class="cart-item">
+          <div class="shop-item">
+            <div class="img-shop">
+              <div class="love"><i onclick="state(this)" class='bx bxs-heart hearts '></i></div>
+              <img class="shop-img" src="images\galina-n-miziNqvJx5M-unsplash 2.png" alt="">
+              <button class="shop-btn">
+                Add to cart
+              </button>
+            </div>
+
+            <h5 class="shop-title"> Plant</h5>
+            <span class="shop-price">$ 28.00</span>
+          </div>
+        </div>
+        <div class="cart-item">
+          <div class="shop-item">
+            <div class="img-shop">
+              <div class="love"><i onclick="state(this)" class='bx bxs-heart hearts'></i></div>
+              <img class="shop-img" src="images\polina-silivanova-ywRYbp-6p8c-unsplash.png" alt="">
+              <button class="shop-btn">
+                Add to cart
+              </button>
+            </div>
+            <h5 class="shop-title">Silivanova</h5>
+            <span class="shop-price">$ 20.00</span>
+          </div>
+        </div>
+        <div class="cart-item">
+          <div class="shop-item">
+            <div class="img-shop">
+              <div class=" love"><i onclick="state(this)" class='bx bxs-heart hearts'></i></div>
+              <img class="shop-img" src="images\pngegg.png" alt="">
+              <button class="shop-btn">
+                Add to cart
+              </button>
+            </div>
+
+            <h5 class="shop-title">Alovera</h5>
+            <span class="shop-price">$ 23.00</span>
+          </div>
+        </div>
+
+      </div>
+      <a href="shop.html" class="btn-shopall-link"><button class="btn-shopall"> Shop Now
+          <span>&#10230</span></button></a>
+  </section>
+  <!-- end sec4 -->
+  <!-- start sec5 -->
+  <section class="sec5" id="Collection">
+    <div class="container swiper-img">
+      <h3 class="font-3">Best collections</h3>
+      <swiper-container class="mySwiper">
+
+        <swiper-slide>
+          <div>
+            <img src="images\vadim-kaipov-8ZELrodSvTc-unsplash.png" alt="">
+            <p>cane plants</p>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="images\yoksel-zok-v20zlbSKfAg-unsplash 1.png" alt="">
+            <p>fiucs plants</p>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="images\pexels-juan-pablo-serrano-arenas-1084188 1 (1).png" alt="">
+            <p>indor plants</p>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="images\pexels-anna-khomutova-5596711 1.png" alt="">
+            <p>olovira plants</p>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="images\pexels-jonathan-borba-2922353 3.png" alt="">
+            <p>twlip plants</p>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="images\pexels-karolina-grabowska-4207787.png" alt="">
+            <p>flowers plants</p>
+          </div>
+        </swiper-slide>
+
+
+      </swiper-container>
+    </div>
+  </section>
+  <!-- end sec5 -->
+  <!-- start sec6 -->
+  <section class="sec6">
+    <div class="container div-sec6">
+      <div class="fonts6">
+        <h2>Why shop with us?</h2>
+        <p style="width: auto;">Dui nulla augue in id enim non. Venenatis aenean suscipit facilisis amet. Pellentesque
+          nullam mi vitae neque ipsum. Sem magna ut pharetra vitae duis eu senectus sem risus. Morbi non, semper
+          vestibulum euismod accumsan augue.</p>
+        <div class="row-fonts">
+          <div class="div-row">
+            <p>01.</p>
+            <div class="fonts-col">
+              <p style="margin-top: 22px;  font-size: 18px;">Socculents</p>
+              <p style="font-size: 16px;  color: #58575B; font-weight:200;">At in proin consequat ut cursus venenatis
+                sapien.</p>
+            </div>
+          </div>
+          <div class="div-row">
+            <p>02.</p>
+            <div class="fonts-col">
+              <p style="margin-top: 22px;  font-size: 18px; ">Decorative</p>
+              <p style="font-size: 16px; color: #58575B; font-weight:200;">At in proin consequat ut cursus venenatis
+                sapien.</p>
+            </div>
+          </div>
+          <div class="div-row">
+            <p>03.</p>
+            <div class="fonts-col">
+              <p style="margin-top: 22px; font-size: 18px;">Air purifiers</p>
+              <p style="font-size: 16px; color: #58575B; font-weight:200;">At in proin consequat ut cursus venenatis
+                sapien.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-sec6 ">
+        <div></div>
+        <img src="images/pexels-tiia-pakk-4350808 1.png" width="300px" alt="">
+
+      </div>
+    </div>
+  </section>
+  <!-- end sec6 -->
+  <!-- start sec7 -->
+  <section class="sec7" id="Blogs">
+    <div class="container end-font ">
+      <h2>Latest blog posts</h2>
+    </div>
+    <div class="container div-sec7">
+      <div class="imgs-7"><img id="imag" src="images\severin-candrian-cLaaxa4DSnc-unsplash 2.png" alt=""></div>
+      <div class="text7">
+        <p class="texxt7" id="text77">“Cursus posuere viverra ipsum urna, orci. Scelerisque ultrices orci sit placerat
+          sollicitudin ac. Dictum pretium mi adipiscing suspendisse sit arcu quam morbi nibh lobortis dolor.”</p>
+        <div class="title-7">
+          <div class="name">
+            <h4 id="name-customer">Rohn Rogan</h4>
+            <p>By Customer</p>
+          </div>
+          <div class="icon-7">
+            <i id="chang-img" class='bx bx-left-arrow-circle' style="font-size: 20px;"></i>
+            <span>|</span>
+            <i id="chang-text" class='bx bx-right-arrow-circle' style="font-size: 20px;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- end sec7 -->
+  <!-- start sec8 -->
+  <section class="sec-8">
+    <img src="images\Group 59.png" alt="">
+    <div class="container div-sec8">
+      <div class="icon-8">
+        <i class='bx bxs-cart-alt'></i>
+        <div>
+          <h5 style="margin-bottom: 0; font-size: 18px; ">Free Shipping </h5>
+          <p style="color: #58575B; font-size: 16px;">Capped at $319 per order</p>
+        </div>
+      </div>
+      <div class="icon-8">
+        <i class='bx bx-check-shield'></i>
+        <div>
+          <h5 style="margin-bottom: 0; font-size: 18px;">Safe Payment</h5>
+          <p style="color: #58575B; font-size: 16px;">With our payment gateway </p>
+        </div>
+      </div>
+      <div class="icon-8">
+        <i class='bx bxs-leaf'></i>
+        <div>
+          <h5 style="margin-bottom: 0; font-size:18px;"> Quality Guarantee </h5>
+          <p style="color: #58575B;font-size: 16px;"> Fresh & Super item available</p>
+        </div>
+      </div>
+      <div class="icon-8">
+        <i class='bx bxs-offer'></i>
+        <div>
+          <h5 style="margin-bottom: 0; font-size: 18px;">Big Offers </h5>
+          <p style="color: #58575B;font-size: 16px;"> We give best offers surely</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container the-end">
+      <div class="logo">
+        <img src="images\logo.png" alt="">
+        <p>Sem magna ut pharetra vitae duis eu senectus sem risus. Morbi non, semper vestibulum euismod accumsan augue.
+        </p>
+        <div class="input-button ">
+          <input type="text" placeholder="Your email address">
+          <button>Subscribe</button>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <h4 style="margin-bottom: 20px;">Company</h4>
+        <p style="margin-bottom: 3px;">About</p>
+        <p style="margin-bottom: 3px;">Plantations </p>
+        <p style="margin-bottom: 3px;">Our vision</p>
+        <p style="margin-bottom: 3px;">nstallations </p>
+      </div>
+      <div style="text-align: center;">
+        <h4 style="margin-bottom: 20px;">Support</h4>
+        <p style="margin-bottom: 3px;">About</p>
+        <p style="margin-bottom: 3px;"> Plantations </p>
+        <p style="margin-bottom: 3px;">Our vision</p>
+        <p style="margin-bottom: 3px;">nstallations </p>
+      </div>
+      <div style="text-align: center;">
+        <h4 style="margin-bottom: 20px;">Contact us</h4>
+        <p style="margin-bottom: 3px;">Street Avenue 487, New York, USA</p>
+        <p style="margin-bottom: 3px;">+333 346 364 366</p>
+        <p style="margin-bottom: 3px;">info@templatesjungle.com</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <button id="btn-scroll"><i class='bx bx-up-arrow-alt'></i></button>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/scrollreveal.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script src="js\jquery.slim.min.js"></script>
+  <script src="js\popper.min.js"></script>
+  <script src="js\bootstrap.bundle.min.js"></script>
+  <script src="store.js"></script>
+
+</body>
+
+</html>
